@@ -76,6 +76,7 @@
 
         </div>
     </nav>
+    <!-- Login / Sign up Modal -->
     <div id="modal1" class="modal">
         <div class="modal-content white">
             <div class="row">
@@ -86,6 +87,7 @@
                         <li class="tab col s6"><a class="waves-effect waves-darken white-text btn blue" href="#tab2">SIGN UP</a></li>
                     </ul>
                 </div>
+                <!-- Login Tab -->
                 <div id="tab1" class="col s12"><br><br>
                     <div class="container">
                         <form class="col s12" action="#" method="post">
@@ -100,14 +102,34 @@
                                 <label for="email">Password</label>
                             </div>
                             <div class="input-field col s12 center">
-                                <button type="submit" class="btn waves-effect waves-light blue">Submit<i class="material-icons right">send</i></button>
+                                <button type="submit" class="btn waves-effect waves-light blue">Sign In<i class="material-icons right">send</i></button>
                             </div>
                             <div class="input-field col s12">
-                                <a href="#" class="red-text">Forgot Password</a>
+                                <a class="red-text" href="#modal3">Forgot Password</a>
                             </div>
                         </form>
                     </div>
                 </div>
+                <!-- modal of forgot password -->
+                <div class="modal bottom-sheet" id="modal3">
+                    <div class="modal-content white">
+                        <div class="row">
+                            <form class="col s12">
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">lock</i>
+                                    <input class="validate" id="email" type="email">
+                                    <label for="email">Email</label>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <!-- Sign Up Tab -->
                 <div id="tab2" class="col s12"><br><br>
                     <div class="container">
                         <form class="col s12" method="post" action="#">
@@ -150,7 +172,7 @@
                                 <label for="email">Confirm Password</label>
                             </div>
                             <div class="input-field col s12 center">
-                                <button type="submit" class="btn waves-effect waves-light blue">Submit<i class="material-icons right">send</i></button>
+                                <button type="submit" class="btn waves-effect waves-light blue">Sign Up<i class="material-icons right">send</i></button>
                             </div>
                         </form>
                     </div>
@@ -211,18 +233,18 @@
                 <div class="col s12 m4">
                     <div class="icon-block">
                         <h5 class="blue-text"><i class="material-icons">flash_on</i></h5>
-                        <h5 class="blue-text">Speeds up development</h5>
+                        <h5 class="blue-text">Easy to make a card</h5>
 
-                        <p class="light text-justify">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                        <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
                     </div>
                 </div>
 
                 <div class="col s12 m4">
                     <div class="icon-block center">
-                        <h5 class="blue-text"><i class="material-icons">group</i></h5>
-                        <h5 class="blue-text">User Experience Focused</h5>
+                        <h5 class="blue-text"><i class="material-icons">credit_card</i></h5>
+                        <h5 class="blue-text">Various Professional Designs</h5>
 
-                        <p class="light text-justify">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+                        <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
                     </div>
                 </div>
 
@@ -231,7 +253,7 @@
                         <h5 class="blue-text"><i class="material-icons">settings</i></h5>
                         <h5 class="blue-text">Easy to work with</h5>
 
-                        <p class="light text-justify">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                        <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
                     </div>
                 </div>
             </div>
@@ -252,10 +274,21 @@
 
         </div>
     </div>
-<!-- Icons took from http://www.freepik.com/index.php?goto=74&idfoto=714596&term=round%20social%20icons -->
+    <!-- Icons took from http://www.freepik.com/index.php?goto=74&idfoto=714596&term=round%20social%20icons -->
     <footer class="page-footer grey darken-4 ">
-        <div class="center white-text">
-            <h2> <code>< Footer ></code> Work is going on</h2>
+        <div class="row container white-text valign-wrapper">
+            <div class="col s4 valign">
+                <div class="col s2 grey-text"><i class="material-icons">mail</i></div>
+                <div class="col s10">support@cardize.in</div>
+            </div>
+            <div class="col s4">
+                <div class="col s2 grey-text"><i class="material-icons">phone</i></div>
+                <div class="col s10">011-2635216</div>
+            </div>
+            <div class="col s4">
+                <div class="col s2 grey-text"><i class="material-icons">home</i></div>
+                <div class="col s10">Software Incubator</div>
+            </div>
         </div>
         <div class="footer-copyright black center grey-text valign-wrapper">
             <div class="container valign">
