@@ -1,6 +1,9 @@
 <!--
     CARDIZE
-    A Project by Avinash Singh, Ayush Kumar Singh and Mayur Pathak
+    A Project by 
+    Avinash Singh, 
+    Ayush Kumar Singh and 
+    Mayur Pathak
 -->
 
 <!DOCTYPE html>
@@ -18,8 +21,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
     <!-- Compiled and minified jQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Compiled JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.js"></script>
 
     <!-- Compiled and minified JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
@@ -37,6 +38,10 @@
                 full_width: true,
                 interval: 5000,
                 indicators: true,
+            });
+            $(".button-collapse").sideNav({
+                draggable: true,
+                menuWidth:200,
             });
 
         });
@@ -80,11 +85,11 @@
     <div id="modal1" class="modal">
         <div class="modal-content white">
             <div class="row">
-                <div class="col s12 center">
+                <div class="col s12">
                     <ul class="tabs tabs-fixed-width container">
                         <li class="tab col s6"><a class="waves-effect waves-darken white-text bt blue" href="#tab1">SIGN IN</a></li>
                         &nbsp;
-                        <li class="tab col s6"><a class="waves-effect waves-darken white-text btn blue" href="#tab2">SIGN UP</a></li>
+                        <li class="tab col s6"><a class="waves-effect waves-darken white-text bt blue" href="#tab1">SIGN IN</a></li>
                     </ul>
                 </div>
                 <!-- Login Tab -->
@@ -131,7 +136,7 @@
 
                 <!-- Sign Up Tab -->
                 <div id="tab2" class="col s12"><br><br>
-                    <div class="container">
+                    <div class="container row">
                         <form class="col s12" method="post" action="#">
                             <div class="col s12">
                                 <div class="input-field col s6">
@@ -184,7 +189,7 @@
 
     <!-- Bottom Style Modal for Cards -->
     <div id="modal2" class="modal bottom-sheet">
-        <div class="modal-content center">
+        <div class="modal-content center row">
             <div class="col s12">
                 <a class="btn waves-effect waves-light blue" href="#">Select Card Template</a>
             </div><br>
@@ -232,7 +237,7 @@
             <div class="row center">
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h5 class="blue-text"><i class="material-icons">flash_on</i></h5>
+                        <h5 class="blue-text"><i class="material-icons medium">flash_on</i></h5>
                         <h5 class="blue-text">Easy to make a card</h5>
 
                         <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
@@ -241,7 +246,7 @@
 
                 <div class="col s12 m4">
                     <div class="icon-block center">
-                        <h5 class="blue-text"><i class="material-icons">credit_card</i></h5>
+                        <h5 class="blue-text"><i class="material-icons medium">credit_card</i></h5>
                         <h5 class="blue-text">Various Professional Designs</h5>
 
                         <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
@@ -250,7 +255,7 @@
 
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h5 class="blue-text"><i class="material-icons">settings</i></h5>
+                        <h5 class="blue-text"><i class="material-icons medium">settings</i></h5>
                         <h5 class="blue-text">Easy to work with</h5>
 
                         <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
@@ -260,23 +265,37 @@
 
         </div>
     </div>
-
-    <div class="container">
-        <div class="section">
-
-            <div class="row">
-                <div class="col s12 center">
-                    <h3 class="center blue-text"><i class="material-icons">phone</i></h3>
-                    <h4 class="blue-text">Contact Us</h4>
-                    <p class="text-justify light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
+    <!-- FOOTER STARTS HERE -->
     <!-- Icons took from http://www.freepik.com/index.php?goto=74&idfoto=714596&term=round%20social%20icons -->
     <footer class="page-footer grey darken-4 ">
-        <div class="row container white-text valign-wrapper">
+        <div class="container row">
+            <ul>
+                <li class="col s3"></li>
+                <li class="col s1">
+                    <a href="#"><img class="avi" src="icons/facebook.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/google.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/instagram.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/linkedin.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/twitter.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/youtube.svg"></a>
+                </li>
+                <li class="col s3"></li>
+            </ul>
+        </div>
+        <div class="row container grey-text col s12 m12 center">
+            We are a team of college students working on this project. For any queries or suggestions, please write us at support@cardize.in
+        </div>
+        <div class="row container grey-text valign-wrapper">
             <div class="col s4 valign">
                 <div class="col s2 grey-text"><i class="material-icons">mail</i></div>
                 <div class="col s10">support@cardize.in</div>
@@ -298,10 +317,7 @@
     </footer>
 
 
-    <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.js"></script>
-    <script src="js/init.js"></script>
+
 
 </body>
 
