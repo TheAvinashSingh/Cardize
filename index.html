@@ -41,7 +41,19 @@
             });
             $(".button-collapse").sideNav({
                 draggable: true,
-                menuWidth:200,
+                menuWidth: 200,
+            });
+            $(document).ready(function() {
+                $('.collapsible').collapsible();
+            });
+            $('.dropdown-button').dropdown({
+                inDuration: 300,
+                outDuration: 225,
+                constrain_width: false, // Does not change width of dropdown to that of the activator
+                hover: true, // Activate on hover
+                gutter: 0, // Spacing from edge
+                belowOrigin: true, // Displays dropdown below the button
+                alignment: 'right' // Displays dropdown with edge aligned to the left of button
             });
 
         });
@@ -60,22 +72,46 @@
             <a id="logo-container" href="#" class="brand-logo">CARDIZE</a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#modal2">CARDS</a></li>
+                <li><a class="dropdown-button" data-activates="dropdown1" href="#">CARDS</a>
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="modify.html">SELECT TEMPLATE</a></li>
+                        <li><a href="create.html">CREATE CARD</a></li>
+                    </ul>
+                </li>
 
                 <li><a href="#">ABOUT US</a></li>
                 <li><a class="waves-effect waves-light btn blue lighten-2" href="#modal1">SIGN IN</a></li>
                 <li><a class="waves-effect waves-light btn blue lighten-2" href="#modal1">SIGN UP</a></li>
             </ul>
 
-            <ul id="nav-mobile" class="side-nav">
-                <li><a class="waves-effect waves-light btn blue" href="#">HOME</a></li>
-                <li><a class="waves-effect waves-light btn blue" href="#">CARDS</a></li>
-
-
-                <li><a class="waves-effect waves-light btn blue" href="#">ABOUT US</a></li>
-                <li><a class="waves-effect waves-light btn blue" href="#modal1">LOG IN</a></li>
-                <li><a class="waves-effect waves-light btn blue" href="#modal1">SIGN UP</a></li>
-
+            <ul id="nav-mobile" class="side-nav collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="userView center">
+                        <div class="background blue">
+                        </div>
+                        <a href="#"><img class="circle" src="images/pic.png"></a>
+                        <a href="#"><span class="white-text name">Avinash Singh</span></a>
+                        <a href="#"><span class="white-text email">connect2avi@outlook.com</span></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><a href="#!">HOME</a></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <a href="#">CARDS</a>
+                    </div>
+                    <div class="collapsible-body">
+                        <a href="modify.html">CARD TEMPLATES</a>
+                        <a href="create.html">CREATE CARD</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><a href="#">ABOUT US</a></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><a href="#">SIGN IN</a></div>
+                </li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 
@@ -89,7 +125,7 @@
                     <ul class="tabs tabs-fixed-width container">
                         <li class="tab col s6"><a class="waves-effect waves-darken white-text bt blue" href="#tab1">SIGN IN</a></li>
                         &nbsp;
-                        <li class="tab col s6"><a class="waves-effect waves-darken white-text bt blue" href="#tab1">SIGN IN</a></li>
+                        <li class="tab col s6"><a class="waves-effect waves-darken white-text bt blue" href="#tab2">SIGN UP</a></li>
                     </ul>
                 </div>
                 <!-- Login Tab -->
@@ -115,23 +151,7 @@
                         </form>
                     </div>
                 </div>
-                <!-- modal of forgot password -->
-                <div class="modal bottom-sheet" id="modal3">
-                    <div class="modal-content white">
-                        <div class="row">
-                            <form class="col s12">
-                                <div class="input-field col s12">
-                                    <i class="material-icons prefix">lock</i>
-                                    <input class="validate" id="email" type="email">
-                                    <label for="email">Email</label>
-                                </div>
 
-                            </form>
-                        </div>
-                    </div>
-
-
-                </div>
 
 
                 <!-- Sign Up Tab -->
@@ -187,17 +207,25 @@
         </div>
     </div>
 
-    <!-- Bottom Style Modal for Cards -->
-    <div id="modal2" class="modal bottom-sheet">
-        <div class="modal-content center row">
-            <div class="col s12">
-                <a class="btn waves-effect waves-light blue" href="#">Select Card Template</a>
-            </div><br>
-            <div class="col s12">
-                <a href="#" class="btn waves-effect waves-light blue">Create Card</a>
+    <!-- modal of forgot password -->
+    <div class="modal" id="modal3">
+        <div class="modal-content white">
+            <div class="row">
+                <form class="col s12">
+                    <div class="input-field col s8">
+                        <i class="material-icons prefix">lock</i>
+                        <input class="validate" id="email" type="email">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <a class="btn blue waves-effect waves-dark" href="#">Reset Password</a>
+                    </div>
+
+                </form>
             </div>
         </div>
     </div>
+
     <!-- SLIDER -->
     <div class="slider">
         <ul class="slides">
@@ -266,7 +294,6 @@
         </div>
     </div>
     <!-- FOOTER STARTS HERE -->
-    <!-- Icons took from http://www.freepik.com/index.php?goto=74&idfoto=714596&term=round%20social%20icons -->
     <footer class="page-footer grey darken-4 ">
         <div class="container row">
             <ul>
@@ -292,24 +319,24 @@
                 <li class="col s3"></li>
             </ul>
         </div>
-        <div class="row container grey-text col s12 m12 center">
+        <div class="row container grey-text text-lighten-2 col s12 m12 center">
             We are a team of college students working on this project. For any queries or suggestions, please write us at support@cardize.in
         </div>
-        <div class="row container grey-text valign-wrapper">
+        <div class="row container grey-text text-lighten-2 valign-wrapper">
             <div class="col s4 valign">
-                <div class="col s2 grey-text"><i class="material-icons">mail</i></div>
+                <div class="col s2"><i class="material-icons">mail</i></div>
                 <div class="col s10">support@cardize.in</div>
             </div>
             <div class="col s4">
-                <div class="col s2 grey-text"><i class="material-icons">phone</i></div>
+                <div class="col s2"><i class="material-icons">phone</i></div>
                 <div class="col s10">011-2635216</div>
             </div>
             <div class="col s4">
-                <div class="col s2 grey-text"><i class="material-icons">home</i></div>
+                <div class="col s2"><i class="material-icons">home</i></div>
                 <div class="col s10">Software Incubator</div>
             </div>
         </div>
-        <div class="footer-copyright black center grey-text valign-wrapper">
+        <div class="footer-copyright black center grey-text text-lighten-2 valign-wrapper">
             <div class="container valign">
                 <h6>&copy; 2016 Cardize Inc. All Right Reserved</h6>
             </div>

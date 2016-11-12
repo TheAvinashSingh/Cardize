@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="header" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 200" style="enable-background:new 0 0 500 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#EBEBEC;}
+	.st1{fill:#CCCCCC;}
+	.st2{fill:#42A5F5;}
+	.st3{fill:#3A3A3A;}
+	.st4{fill:#848484;}
+</style>
+<g>
+	<path class="st0" d="M0,0v164.2l11.7,9.3c3.5,2.9,9.3,2.9,12.8,0L236.9,5.7c2-1.5,2.8-3.7,2.6-5.7H0z"/>
+	<path class="st1" d="M0,0v149L181.9,5.3c1.8-1.4,2.6-3.4,2.4-5.3H0z"/>
+	<path id="accent" class="st2" d="M349.4,0H228.9h-14.5h-53.3h-28.4H0v117.8C50.3,78.5,100.6,39.3,150.9,0.1
+		c6,6.9,12,13.7,17.9,20.6H265c35.9-0.5,71.8-0.8,107.7-1.3C364.9,12.9,357.2,6.5,349.4,0z"/>
+	<path class="st3" d="M0,0v71.5L86,3.5c1.2-0.9,1.7-2.4,1.5-3.5H0z"/>
+	<polygon class="st3" points="500,0 500,33.5 375.6,33.5 363.2,20.7 343.3,0 	"/>
+	<polygon class="st4" points="343.3,0 375.6,33.5 337.4,0 	"/>
+</g>
+</svg>
