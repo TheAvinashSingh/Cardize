@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Modify Card</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- External CSS  -->
+    <link href="css/mystyle.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified Materialize CSS -->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    
+
+</head>
+
+<body>
+    <nav class="blue">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">CARDIZE</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#" class="dropdown-button" data-activates="dropdown1">CARDS</a>
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="modify.html">SELECT TEMPLATE</a></li>
+                        <li><a href="create.html">CREATE CARD</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">ABOUT US</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="userView center">
+                        <div class="background blue">
+                        </div>
+                        <a href="#"><img class="circle" src="images/pic.png"></a>
+                        <a href="#"><span class="white-text name">Avinash Singh</span></a>
+                        <a href="#"><span class="white-text email">connect2avi@outlook.com</span></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><a href="index.html">HOME</a></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <a href="#">CARDS</a>
+                    </div>
+                    <div class="collapsible-body">
+                        <a href="modify.html">CARD TEMPLATES</a>
+                        <a href="create.html">CREATE CARD</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><a href="#">ABOUT US</a></div>
+                </li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+        </div>
+    </nav>
+    <!-- SELECT CARD AREA -->
+    <div class="custom_container">
+        <div class="row">
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg2(),f2()"><img class="responsive-img hoverable" src="cards/card1.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg1(),f2()"><img class="responsive-img hoverable" src="cards/card2.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg4(),f3()"><img class="responsive-img hoverable" src="cards/card3.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h4(),bg5(),f4()"><img class="responsive-img hoverable" src="cards/card4.png"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg5(),f3()"><img class="responsive-img hoverable" src="cards/card5.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg5(),f5()"><img class="responsive-img hoverable" src="cards/card6.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg1(),f1()"><img class="responsive-img hoverable" src="cards/card7.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg2(),f3()"><img class="responsive-img hoverable" src="cards/card8.png"></a>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- select card area ends -->
+    <!-- workspace -->
+    <div class="custom_container" id="workspace">
+        <div class="row">
+            <div class="col m3 s12">
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="row"></div>
+                <div class="container z-depth-4 center blue white-text"><i class="material-icons">invert_colors</i> COLOR ACCENT</div>
+                <div class="card-panel hoverable custom_container center-align">
+                    <div class="fillcolor hoverable blue" onclick="accent(1);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="fillcolor hoverable red" onclick="accent(2);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="fillcolor hoverable green" onclick="accent(3);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <br/>
+                    <div class="fillcolor hoverable yellow" onclick="accent(4);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="fillcolor hoverable deep-purple" onclick="accent(5);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="fillcolor hoverable pink" onclick="accent(6);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <br/>
+                    <div class="fillcolor hoverable indigo darken-4" onclick="accent(7);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="fillcolor hoverable light-green accent-3" onclick="accent(8);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <div class="fillcolor hoverable amber darken-3" onclick="accent(9);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                    <br/><br/>
+                </div>
+            </div>
+
+
+
+            <div class="col m6 s12" id="workspace">
+                <img class="responsive-img z-depth-2" id="gridbg" src="./assets/grid.png">
+                <div id="previewdiv" class="z-depth-5">
+                    <object id="cardbg" data="./assets/blank.svg" type="image/svg+xml"></object>
+                    <object id="cardheader" data="./assets/blank.svg" type="image/svg+xml"></object>
+                    <object id="cardfooter" data="./assets/blank.svg" type="image/svg+xml"></object>
+                    <div id="namedrag">
+                        <div id="holder" class="center-align"><i class="material-icons tiny" style="opacity: 0.5;">open_with</i></div>
+                        <object id="namesvg" data="./assets/credentials/name.svg" type="image/svg+xml"></object>
+                    </div>
+                    <div id="desigdrag">
+                        <div id="holder" class="center-align"><i class="material-icons tiny" style="opacity: 0.5;">open_with</i></div>
+                        <object id="designationsvg" data="./assets/credentials/designation.svg" type="image/svg+xml"></object>
+                    </div>
+                    <div id="cnamedrag">
+                        <div id="holder" class="center-align"><i class="material-icons tiny" style="opacity: 0.5;">open_with</i></div>
+                        <object id="cnamesvg" data="./assets/credentials/cname.svg" type="image/svg+xml"></object>
+                    </div>
+                    <div id="contactdrag">
+                        <div id="holder" class="center-align"><i class="material-icons tiny" style="opacity: 0.5;">open_with</i></div>
+                        <object id="contactsvg" data="./assets/credentials/contact.svg" type="image/svg+xml"></object>
+                    </div>
+                    <div id="emaildrag">
+                        <div id="holder" class="center-align"><i class="material-icons tiny" style="opacity: 0.5;">open_with</i></div>
+                        <object id="emailsvg" data="./assets/credentials/email.svg" type="image/svg+xml"></object>
+                    </div>
+                </div>
+                <div id="coordinates"></div>
+
+            </div>
+
+
+
+
+            <div class="col m3 s12">
+                <div class="card grey lighten-5 z-depth-3">
+                    <div class="card-content">
+                        <span class="card-title">User Details</span>
+                        <div class="row">
+                            <div class="input-field col m10">
+                                <input id="name" type="text" class="validate" onchange="nameonsvg()">
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="col m2">
+                                <div class="textcolor hoverable black" onclick="color(1);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <div class="textcolor hoverable white" onclick="color(2);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+
+                            <div class="input-field col m10">
+                                <input id="desig" type="text" class="validate" onchange="nameonsvg()">
+                                <label for="desig">Designation</label>
+                            </div>
+                            <div class="col m2">
+                                <div class="textcolor hoverable black" onclick="color(3);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <div class="textcolor hoverable white" onclick="color(4);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+                            <div class="input-field col m10">
+                                <input id="comp_name" type="text" class="validate" onchange="nameonsvg()">
+                                <label for="comp_name">Company Name</label>
+                            </div>
+                            <div class="col m2">
+                                <div class="textcolor hoverable black" onclick="color(5);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <div class="textcolor hoverable white" onclick="color(6);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+                            <div class="input-field col m10">
+                                <input id="contact" type="tel" class="validate" onchange="nameonsvg()">
+                                <label for="contact">Contact Number</label>
+                            </div>
+                            <div class="col m2">
+                                <div class="textcolor hoverable black" onclick="color(7);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <div class="textcolor hoverable white" onclick="color(8);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+                            <div class="input-field col m10">
+                                <input id="email" type="email" class="validate" onchange="nameonsvg()">
+                                <label for="email">Email ID</label>
+                            </div>
+                            <div class="col m2">
+                                <div class="textcolor hoverable black" onclick="color(9);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <div class="textcolor hoverable white" onclick="color(10);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div><br><br>
+    <div class="container row">
+        <div class="col s12 center">
+            <button style="position: absolute; left: 40%;" onclick="generate()" data-target="modal1" class="btn waves-effect waves-light blue">PREVIEW</button>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content center-align">
+                    <a href="#!" class="modal-action modal-close waves-effect btn-flat right">CLOSE</a>
+                    <h5 style="clear: both;">Preview</h5>
+                    <canvas id="canvas" style="border:1px solid grey;" width="500" height="300"></canvas>
+                    <br/>
+                    <button id="trigger" class="btn waves-effect waves-light blue" onclick="saveImage()">Download</button>
+                    <a download="card.png" id="btn-download"></a>
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+
+    <!-- footer -->
+    <footer class="page-footer grey darken-4 ">
+        <div class="container row">
+            <ul>
+                <li class="col s3"></li>
+                <li class="col s1">
+                    <a href="#"><img class="avi" src="icons/facebook.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/google.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/instagram.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/linkedin.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/twitter.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img class="hoverable" src="icons/youtube.svg"></a>
+                </li>
+                <li class="col s3"></li>
+            </ul>
+        </div>
+        <div class="row container grey-text text-lighten-2 col s12 m12 center">
+            We are a team of college students working on this project. For any queries or suggestions, please write us at support@cardize.in
+        </div>
+        <div class="row container grey-text text-lighten-2 valign-wrapper">
+            <div class="col s3 m3 valign">
+                <div class="col s1 m2"><i class="material-icons">mail</i></div>
+                <div class="col s1 m2"></div>
+                <div class="col s10 m8">support@cardize.in</div>
+            </div>
+            <div class="col s1 m1"></div>
+            <div class="col s4 m4 l4">
+                <div class="col s1 m2"><i class="material-icons">phone</i></div>
+                <div class="col s1 m2"></div>
+                <div class="col s10 m8">011-2635216</div>
+            </div>
+            <div class="col s1 m1"></div>
+            <div class="col s3 m3 l4">
+                <div class="col s1 m2"><i class="material-icons">home</i></div>
+                <div class="col s1 m2"></div>
+                <div class="col s10 m8">Software Incubator</div>
+            </div>
+        </div>
+        <div class="footer-copyright black center grey-text text-lighten-2 valign-wrapper">
+            <div class="container valign">
+                <h6>&copy; 2016 Cardize Inc. All Right Reserved</h6>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- footer ends -->
+
+    <!--  Scripts-->
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/pointer.js"></script>
+    <script src="js/replacer.js"></script>
+    <script src="js/accent.js"></script>
+    <script src="js/svgtopng.js"></script>
+    <script src="js/credential.js"></script>
+    <script src="js/fontcolor.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.modal').modal();
+        });
+
+    </script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+        var a = $('#previewdiv').offset().left * 0.8;
+        var b = $('#previewdiv').offset().left + $('#previewdiv').width() / 2;
+        var c = $('#previewdiv').offset().top;
+        var d = $('#previewdiv').offset().top + $('#previewdiv').height();
+
+        $('#namedrag').draggable({
+            containment: [a, c, b, d]
+        });
+
+        $('#desigdrag').draggable({
+            containment: [a, c, b, d]
+        });
+
+        $('#cnamedrag').draggable({
+            containment: [a, c, b, d]
+        });
+
+        $('#contactdrag').draggable({
+            containment: [a, c, b, d]
+        });
+
+        $('#emaildrag').draggable({
+            containment: [a, c, b, d]
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+
+            $('.modal').modal();
+            $('ul.tabs').tabs();
+            $('input#password1').characterCounter();
+            $('.datepicker').pickadate({
+                selectMonths: true, // Creates a dropdown to control month
+                selectYears: 60 // Creates a dropdown of 60 years to control year
+            });
+            $('.slider').slider({
+                full_width: true,
+                interval: 5000,
+                indicators: true,
+            });
+            $(".button-collapse").sideNav({
+                draggable: true,
+                menuWidth: 200,
+            });
+            $(document).ready(function() {
+                $('.collapsible').collapsible();
+            });
+            $('.dropdown-button').dropdown({
+                inDuration: 300,
+                outDuration: 225,
+                constrain_width: false, // Does not change width of dropdown to that of the activator
+                hover: true, // Activate on hover
+                gutter: 0, // Spacing from edge
+                belowOrigin: true, // Displays dropdown below the button
+                alignment: 'right' // Displays dropdown with edge aligned to the left of button
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>

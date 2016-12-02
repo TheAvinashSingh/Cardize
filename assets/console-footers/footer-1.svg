@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="footer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 200" style="enable-background:new 0 0 500 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#272727;}
+	.st1{fill:#42A5F5;}
+</style>
+<path class="st0" d="M155.9,153.1c-5.5,0-12.6,3.6-15.8,8l-4.6,6.2l-4.6,6.2c-3.3,4.4-10.4,8-15.8,8H9.8H0
+	c-0.1,6.2-0.1,12.3-0.1,18.5c6.6,0,13.2,0,19.9,0h460.3c6.6,0,13.2,0,19.8,0c0-6.7,0-13.3,0-20v-16.9v-10H490H155.9z"/>
+<path id="accent" class="st1" d="M-0.1,123v57c0,0.5,0,1,0.1,1.5h9.8H115c5.5,0,12.6-3.6,15.8-8l4.6-6.2l4.6-6.2
+	c3.3-4.4,10.4-8,15.8-8h334.1h9.9V123H-0.1z"/>
+<polygon class="st0" points="499.9,105.1 490,105.1 9.8,105.1 -0.1,105.1 -0.1,123 499.9,123 "/>
+</svg>

@@ -1,0 +1,137 @@
+/**
+        CSS FILE FOR CARDIZE PROJECT
+
+**/
+
+/*  Tabs Indicator Color */
+.tabs div.indicator {
+    background-color: #2196f3 !important;
+
+}
+
+
+/* label color */
+ 
+ .input-field label {
+     color: #2196f3 !important;
+ }
+ /* label focus color */
+ 
+ .input-field input[type=text]:focus+label {
+     color: #2196f3 !important;
+ }
+.input-field input[type=number]:focus+label {
+     color: #2196f3 !important;
+ }
+.input-field input[type=date]:focus+label {
+     color: #2196f3 !important;
+ }
+.input-field input[type=email]:focus+label {
+     color: #2196f3 !important;
+ }
+.input-field input[type=password]:focus+label {
+     color: #2196f3 !important;
+ }
+ /* label underline focus color */
+ 
+ .input-field input[type=text]:focus {
+     border-bottom: 1px solid #2196f3 !important;
+     box-shadow: 0 1px 0 0 #2196f3 !important;
+ }
+.input-field input[type=number]:focus {
+     border-bottom: 1px solid #2196f3 !important;
+     box-shadow: 0 1px 0 0 #2196f3 !important;
+ }
+.input-field input[type=date]:focus {
+     border-bottom: 1px solid #2196f3 !important;
+     box-shadow: 0 1px 0 0 #2196f3 !important;
+ }
+.input-field input[type=email]:focus {
+     border-bottom: 1px solid #2196f3 !important;
+     box-shadow: 0 1px 0 0 #2196f3 !important;
+ }
+.input-field input[type=password]:focus {
+     border-bottom: 1px solid #2196f3 !important;
+     box-shadow: 0 1px 0 0 #2196f3 !important;
+ }
+ /* icon prefix focus color */
+ 
+ .input-field .prefix.active {
+     color: #2196f3 !important;
+ }
+
+/* Text Justify */
+.text-justify {
+    text-align: justify;
+}
+
+
+/*=============================== Date Picker Customisation =============================== */
+
+.picker__box {
+    background-color: #2196f3 !important;
+    color: #fff !important;
+}
+.picker__date-display, .picker__weekday-display {
+    background-color: #2196f3 !important;
+    color: #fff !important;
+}
+/**
+*The Weekday Labels 
+*/
+.picker__weekday {
+    color: #fff !important;
+}
+/**
+* The days listed 
+*/
+.picker__day--today {
+    color: teal !important;
+}
+
+.picker__button--today, .picker__button--clear, .picker__button--close {
+    color: #fff !important;
+}
+
+.picker__select--month.browser-default {
+    background-color: #3da2f4 !important;
+}
+
+.picker__select--year.browser-default {
+    background-color: #3da2f4 !important;
+}
+
+.picker__close, .picker__today {
+    color: #fff !important;
+}
+.picker__clear {
+    color: #fff !important;
+}
+
+.picker__day {
+    color: #fff !important;
+}
+.picker__year-display {
+    color: #fff !important;
+}
+.picker__nav--prev, .picker__nav--next {
+    color: #fff !important;
+}
+
+.picker__day--disabled:before {
+  border-top-color: blue !important;
+}
+
+.picker__day--disabled,
+.picker__day--disabled:hover,
+.picker--focused .picker__day--disabled {
+  background: #2196f3 !important;
+  border-color: #2196f3 !important;
+  color: #b5b5b5 !important;
+  cursor: no-drop !important;
+}
+
+.logo {
+    height: 4vw; !important
+    width: 4vw; !important
+}
