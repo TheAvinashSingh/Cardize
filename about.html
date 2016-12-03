@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>About Us</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- External CSS  -->
+    <link href="css/mystyle.css" rel="stylesheet" type="text/css" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- Compiled and minified jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('.modal').modal();
+            $(".button-collapse").sideNav({
+                draggable: true,
+                menuWidth: 200,
+            });
+            $('.dropdown-button').dropdown({
+                inDuration: 300,
+                outDuration: 225,
+                constrain_width: false, // Does not change width of dropdown to that of the activator
+                hover: true, // Activate on hover
+                gutter: 0, // Spacing from edge
+                belowOrigin: true, // Displays dropdown below the button
+                alignment: 'right' // Displays dropdown with edge aligned to the left of button
+            });
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <nav class="blue">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">CARDIZE</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">HOME</a></li>
+                <li><a class="dropdown-button" data-activates="dropdown1" href="#">CARDS</a>
+                    <ul id="dropdown1" class="dropdown-content">
+                        <li><a href="modify.html">SELECT TEMPLATE</a></li>
+                        <li><a href="create.html">CREATE CARD</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">ABOUT US</a></li>
+                <li><a class="waves-effect waves-light btn blue lighten-2" href="#modal1">SIGN IN / SIGN UP</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="userView center">
+                        <div class="background blue">
+                        </div>
+                        <a href="#"><img alt="user_image" class="circle" src="images/pic.png"></a>
+                        <a href="#"><span class="white-text name">Avinash Singh</span></a>
+                        <a href="#"><span class="white-text email">connect2avi@outlook.com</span></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><a href="#!">HOME</a></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">
+                        <a href="#">CARDS</a>
+                    </div>
+                    <div class="collapsible-body">
+                        <a href="modify.html">CARD TEMPLATES</a>
+                        <a href="create.html">CREATE CARD</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><a href="#">ABOUT US</a></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><a href="#modal1">SIGN IN</a></div>
+                </li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+        </div>
+    </nav>
+    <!-- navbar ends -->
+    <!-- section -->
+    <div class="row">
+        <div class="col s12 m12 center blue-text">
+            <h3>Cardize</h3>
+        </div>
+        <div class="light col m6 offset-m3 text-justify">
+            <p>Cardize is an online application which provides you a beautiful business card according to your need within a moment. We have different categories available for different people, and this is all free of cost. We have cards for Lawyers, Architect, Engineers, Real Estate, Medical Sector, Retail and Sales, Artists, Beverages and Restaurants, Health and Fitness and many more.</p>
+        </div>
+
+        <div class="row center">
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block center">
+                    <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <p class="light text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="center blue-text col s12 m12">
+            <h5>Feel free to contact us.</h5>
+        </div>
+    </div>
+    <div class="row">
+        <form class="form col s10 offset-s1 offset-m4 m4 card-panel">
+            <div class="center col s12 m12">
+                <h5>Contact Us</h5>
+            </div>
+            <div class="input-field col s12 m12">
+                <input id="name" type="text">
+                <label for="name">Full Name</label>
+            </div>
+            <div class="input-field col s12 m12">
+                <input type="email" id="email">
+                <label for="email">Email</label>
+            </div>
+            <div class="input-field col s12 m12">
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="message">Message</label>
+            </div>
+            <div class="input-field col s6 m6 offset-m3 offset-s3">
+                <button type="submit" class="btn blue waves-effect waves-light">Send<i class="material-icons right">send</i></button>
+            </div>
+            <div class="row"></div>
+        </form>
+    </div>
+
+    <!-- FOOTER STARTS HERE -->
+    <footer class="page-footer grey darken-4 ">
+        <div class="container row">
+            <ul>
+                <li class="col s3"></li>
+                <li class="col s1">
+                    <a href="#"><img alt="facebook" class="hoverable img-responsive logo" src="icons/facebook.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img alt="google" class="hoverable img-responsive logo" src="icons/google.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img alt="instagram" class="hoverable img-responsive logo" src="icons/instagram.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img alt="linkedin" class="hoverable img-responsive logo" src="icons/linkedin.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img alt="twitter" class="hoverable img-responsive logo" src="icons/twitter.svg"></a>
+                </li>
+                <li class="col s1">
+                    <a href="#"><img alt="youtube" class="hoverable img-responsive logo" src="icons/youtube.svg"></a>
+                </li>
+                <li class="col s3"></li>
+            </ul>
+        </div>
+        <div class="row container grey-text text-lighten-2 col s12 m12 center">
+            We are a team of college students working on this project. For any queries or suggestions, please write us at support@cardize.in
+        </div>
+        <div class="row container grey-text text-lighten-2 valign-wrapper">
+            <div class="col s3 m3 valign">
+                <div class="col s2 m4"><i class="material-icons">mail</i></div>
+                <div class="col s10 m8">help@cardize.in</div>
+            </div>
+            <div class="col s1 m1"></div>
+            <div class="col s4 m4 l4">
+                <div class="col s2 m4"><i class="material-icons">phone</i></div>
+                <div class="col s10 m8">011-2635216</div>
+            </div>
+            <div class="col s1 m1"></div>
+            <div class="col s3 m3 l4">
+                <div class="col s2 m4"><i class="material-icons">home</i></div>
+                <div class="col s10 m8">Software Incubator</div>
+            </div>
+        </div>
+        <div class="footer-copyright black center grey-text text-lighten-2 valign-wrapper">
+            <div class="container valign">
+                <h6>&copy; 2016 Cardize Inc. All Right Reserved</h6>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

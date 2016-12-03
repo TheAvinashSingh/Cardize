@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -14,11 +14,16 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified Materialize CSS -->
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    
+    <script>
+        $(document).ready(function() {
+            $('.collapsible').collapsible();
+        });
 
+    </script>
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="blue">
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo">CARDIZE</a>
@@ -64,9 +69,15 @@
 
         </div>
     </nav>
-    <!-- SELECT CARD AREA -->
-    <div class="custom_container">
-        <div class="row">
+    <!-- Navbar Ends -->
+    <!-- Select Card Template -->
+    <div class="row center">
+        <ul class="collapsible blue-text" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header">Engineers</div>
+                <div class="collapsible-body">
+                    <h3>Engineers</h3>
+                    <div class="row">
             <div class="col s6 m3">
                 <a href="#" onclick="h1(),bg2(),f2()"><img class="responsive-img hoverable" src="cards/card1.png"></a>
             </div>
@@ -80,7 +91,39 @@
                 <a href="#" onclick="h4(),bg5(),f4()"><img class="responsive-img hoverable" src="cards/card4.png"></a>
             </div>
         </div>
-        <div class="row">
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Health and Fitness</div>
+                <div class="collapsible-body">
+                    <h3>Health and Fitness</h3>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Entrepreneurs</div>
+                <div class="collapsible-body">
+                    <h3>Entrepreneurs</h3>
+                    <div class="row">
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg2(),f2()"><img class="responsive-img hoverable" src="cards/card1.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg1(),f2()"><img class="responsive-img hoverable" src="cards/card2.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg4(),f3()"><img class="responsive-img hoverable" src="cards/card3.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h4(),bg5(),f4()"><img class="responsive-img hoverable" src="cards/card4.png"></a>
+            </div>
+        </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Legal and Politics</div>
+                <div class="collapsible-body">
+                    <h3>Legal and Politics</h3>
+                    <div class="row">
             <div class="col s6 m3">
                 <a href="#" onclick="h1(),bg5(),f3()"><img class="responsive-img hoverable" src="cards/card5.png"></a>
             </div>
@@ -95,41 +138,77 @@
             </div>
 
         </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Educational Sector</div>
+                <div class="collapsible-body">
+                    <h3>Educational Sector</h3>
+                    <div class="row">
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg2(),f2()"><img class="responsive-img hoverable" src="cards/card1.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg1(),f2()"><img class="responsive-img hoverable" src="cards/card2.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg4(),f3()"><img class="responsive-img hoverable" src="cards/card3.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h4(),bg5(),f4()"><img class="responsive-img hoverable" src="cards/card4.png"></a>
+            </div>
+        </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Entertainment Art and Music</div>
+                <div class="collapsible-body">
+                    <h3>Entertainment Art and Music</h3>
+                    <div class="row">
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg5(),f3()"><img class="responsive-img hoverable" src="cards/card5.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg5(),f5()"><img class="responsive-img hoverable" src="cards/card6.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg1(),f1()"><img class="responsive-img hoverable" src="cards/card7.png"></a>
+            </div>
+            <div class="col s6 m3">
+                <a href="#" onclick="h1(),bg2(),f3()"><img class="responsive-img hoverable" src="cards/card8.png"></a>
+            </div>
 
+        </div>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Real Estate</div>
+                <div class="collapsible-body">
+                    <h3>Real Estate</h3>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Retail and Sales</div>
+                <div class="collapsible-body">
+                    <h3>Retail and Sales</h3>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">Beverages and Restaurants</div>
+                <div class="collapsible-body">
+                    <h3>Beverages and Restaurants</h3>
+                </div>
+            </li>
+        </ul>
     </div>
-    <!-- select card area ends -->
+    
+    <!-- Select Card Ends -->
+    
     <!-- workspace -->
     <div class="custom_container" id="workspace">
         <div class="row">
-            <div class="col m3 s12">
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="row"></div>
-                <div class="container z-depth-4 center blue white-text"><i class="material-icons">invert_colors</i> COLOR ACCENT</div>
-                <div class="card-panel hoverable custom_container center-align">
-                    <div class="fillcolor hoverable blue" onclick="accent(1);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <div class="fillcolor hoverable red" onclick="accent(2);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <div class="fillcolor hoverable green" onclick="accent(3);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <br/>
-                    <div class="fillcolor hoverable yellow" onclick="accent(4);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <div class="fillcolor hoverable deep-purple" onclick="accent(5);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <div class="fillcolor hoverable pink" onclick="accent(6);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <br/>
-                    <div class="fillcolor hoverable indigo darken-4" onclick="accent(7);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <div class="fillcolor hoverable light-green accent-3" onclick="accent(8);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <div class="fillcolor hoverable amber darken-3" onclick="accent(9);">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                    <br/><br/>
-                </div>
-            </div>
-
-
-
-            <div class="col m6 s12" id="workspace">
+            <div class="col s1 m1"></div>
+            <div class="col m6 s6" id="workspace">
                 <img class="responsive-img z-depth-2" id="gridbg" src="./assets/grid.png">
                 <div id="previewdiv" class="z-depth-5">
                     <object id="cardbg" data="./assets/blank.svg" type="image/svg+xml"></object>
@@ -159,11 +238,9 @@
                 <div id="coordinates"></div>
 
             </div>
-
-
-
-
-            <div class="col m3 s12">
+            
+            
+            <div class="col m4 s4">
                 <div class="card grey lighten-5 z-depth-3">
                     <div class="card-content">
                         <span class="card-title">User Details</span>
@@ -213,6 +290,8 @@
                     </div>
                 </div>
             </div>
+            
+            <div class="col s1 m1"></div>
 
 
         </div>
@@ -243,22 +322,22 @@
             <ul>
                 <li class="col s3"></li>
                 <li class="col s1">
-                    <a href="#"><img alt="facebook" class="hoverable img-responsive logo" src="icons/facebook.svg"></a>
+                    <a href="#"><img class="avi" src="icons/facebook.svg"></a>
                 </li>
                 <li class="col s1">
-                    <a href="#"><img alt="google" class="hoverable img-responsive logo" src="icons/google.svg"></a>
+                    <a href="#"><img class="hoverable" src="icons/google.svg"></a>
                 </li>
                 <li class="col s1">
-                    <a href="#"><img alt="instagram" class="hoverable img-responsive logo" src="icons/instagram.svg"></a>
+                    <a href="#"><img class="hoverable" src="icons/instagram.svg"></a>
                 </li>
                 <li class="col s1">
-                    <a href="#"><img alt="linkedin" class="hoverable img-responsive logo" src="icons/linkedin.svg"></a>
+                    <a href="#"><img class="hoverable" src="icons/linkedin.svg"></a>
                 </li>
                 <li class="col s1">
-                    <a href="#"><img alt="twitter" class="hoverable img-responsive logo" src="icons/twitter.svg"></a>
+                    <a href="#"><img class="hoverable" src="icons/twitter.svg"></a>
                 </li>
                 <li class="col s1">
-                    <a href="#"><img alt="youtube" class="hoverable img-responsive logo" src="icons/youtube.svg"></a>
+                    <a href="#"><img class="hoverable" src="icons/youtube.svg"></a>
                 </li>
                 <li class="col s3"></li>
             </ul>
@@ -268,20 +347,17 @@
         </div>
         <div class="row container grey-text text-lighten-2 valign-wrapper">
             <div class="col s3 m3 valign">
-                <div class="col s1 m2"><i class="material-icons">mail</i></div>
-                <div class="col s1 m2"></div>
-                <div class="col s10 m8">support@cardize.in</div>
+                <div class="col s2 m4"><i class="material-icons">mail</i></div>
+                <div class="col s10 m8">help@cardize.in</div>
             </div>
             <div class="col s1 m1"></div>
             <div class="col s4 m4 l4">
-                <div class="col s1 m2"><i class="material-icons">phone</i></div>
-                <div class="col s1 m2"></div>
+                <div class="col s2 m4"><i class="material-icons">phone</i></div>
                 <div class="col s10 m8">011-2635216</div>
             </div>
             <div class="col s1 m1"></div>
             <div class="col s3 m3 l4">
-                <div class="col s1 m2"><i class="material-icons">home</i></div>
-                <div class="col s1 m2"></div>
+                <div class="col s2 m4"><i class="material-icons">home</i></div>
                 <div class="col s10 m8">Software Incubator</div>
             </div>
         </div>
