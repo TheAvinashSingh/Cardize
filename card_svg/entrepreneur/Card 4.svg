@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 300" style="enable-background:new 0 0 500 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#121010;}
+	.st1{fill:#1ED5D5;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'ArialMT';}
+	.st4{font-size:47.5113px;}
+	.st5{font-size:33.9366px;}
+	.st6{font-size:20.362px;}
+	.st7{font-size:13.5747px;}
+</style>
+<rect class="st0" width="500" height="300"/>
+<rect y="129" class="st1" width="500" height="171"/>
+<path class="st2" d="M351.4,174.4h-10.2c-1.4,0-2.7,1.4-2.7,2.7v17c0,1.4,1.4,2.7,2.7,2.7h10.2c1.4,0,2.7-1.4,2.7-2.7v-17.6
+	C353.5,175.1,352.8,174.4,351.4,174.4z M346,194.1c-0.7,0-1.4-0.7-1.4-1.4c0-0.7,0.7-1.4,1.4-1.4c0.7,0,1.4,0.7,1.4,1.4
+	C347.4,193.4,347.4,194.1,346,194.1z M351.4,190h-10.9v-13.6h10.9V190z"/>
+<g>
+	<g>
+		<path class="st2" d="M173,178.5l8.8,8.8l8.8-8.8l0,0c-0.7,0-0.7-0.7-1.4-0.7h-15.6C173.7,177.8,173.7,178.5,173,178.5L173,178.5z"
+			/>
+		<path class="st2" d="M192,190.7L192,190.7c0.7,0,0.7-0.7,0.7-0.7v-9.5c0,0,0,0,0-0.7l-5.4,5.4C189.3,188,191.3,190,192,190.7z"/>
+		<path class="st2" d="M185.2,186.7l-2,2.7h-0.7h-0.7l-2.7-2.7l-5.4,5.4c0,0,0.7,0,1.4,0H190c0.7,0,0.7,0,1.4,0
+			C190,191.4,188.6,190,185.2,186.7z"/>
+		<path class="st2" d="M172.3,179.9C172.3,180.5,171.6,180.5,172.3,179.9V190v0.7l5.4-5.4L172.3,179.9z"/>
+	</g>
+</g>
+<text id="name" transform="matrix(0.9995 0 0 1 159.1914 57.4531)" class="st1 st3 st4">John Doe</text>
+<text id="cname" transform="matrix(0.9995 0 0 1 133.3594 277.3789)" class="st2 st3 st5">Company Name</text>
+<text id="desig" transform="matrix(0.9995 0 0 1 222.1445 82.2617)" class="st1 st3 st6">Profession</text>
+<text id="email" transform="matrix(0.9995 0 0 1 127.957 223.4492)" class="st2 st3 st7">john@email.com</text>
+<text id="contact" transform="matrix(0.9995 0 0 1 305.5156 223.4492)" class="st2 st3 st7">9876543210</text>
+</svg>

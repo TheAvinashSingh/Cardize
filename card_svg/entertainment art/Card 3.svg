@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="objects" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 300" style="enable-background:new 0 0 500 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#20242D;}
+	.st2{opacity:0.4;fill:#000102;enable-background:new    ;}
+	.st3{fill:#B72333;}
+	.st4{fill:#A41423;}
+	.st5{fill:#DD1D2C;}
+	.st6{fill:#E32630;}
+	.st7{opacity:0.6;fill:#050505;enable-background:new    ;}
+	.st8{fill:#B71C32;}
+	.st9{opacity:0.6;fill:#20242D;enable-background:new    ;}
+	.st10{fill:#E6E6E6;}
+	.st11{fill:#2A2B2F;}
+	.st12{fill:#FCFCFA;}
+	.st13{font-family:'ArialMT';}
+	.st14{font-size:30.2083px;}
+	.st15{font-size:15.625px;}
+	.st16{font-size:18.75px;}
+	.st17{font-size:12.5px;}
+</style>
+<g>
+	<g>
+		<polygon class="st0" points="0,300 0,300 500,300 500,0 0,0 		"/>
+		<g>
+			<polygon class="st1" points="0,0 0,300 0,300 338.7,300 216.5,0 			"/>
+			<polygon class="st2" points="216.5,0 186.7,0 308.9,300 338.7,300 			"/>
+			<polygon class="st0" points="500,0 216.5,0 338.7,300 500,300 			"/>
+		</g>
+		<g>
+			<polygon class="st3" points="217.6,0 215.4,0 337.6,300 339.8,300 			"/>
+		</g>
+	</g>
+	<g>
+		<polygon class="st4" points="322.6,264.4 337.1,300 0,300 0,237.1 		"/>
+		<polygon class="st5" points="451.8,261.4 500,284.9 500,244.3 		"/>
+		<g>
+			<g>
+				<polygon class="st6" points="196.1,300 295.8,150 356.9,300 				"/>
+				<polygon class="st7" points="291.4,138.9 295.8,150 196.1,300 184.2,300 				"/>
+			</g>
+			<polygon class="st8" points="356.9,300 278.9,300 326.9,226.3 			"/>
+		</g>
+		<g>
+			<polygon class="st9" points="281.7,190.4 326.2,300 500,300 500,292.5 			"/>
+			<polygon class="st3" points="295,196.7 337.1,300 500,300 500,292.5 			"/>
+		</g>
+	</g>
+	<g>
+		<polygon class="st3" points="500,81.4 230.3,81.4 213.4,39.7 500,39.7 		"/>
+		<polygon class="st6" points="213.4,39.7 231.5,39.7 227.4,29.6 		"/>
+	</g>
+</g>
+<g>
+	<polygon class="st10" points="215.6,94.7 187.8,94.7 196.9,117.1 224.7,117.1 	"/>
+	<g>
+		<path class="st11" d="M200.9,101l2.9,3c0,0-0.5,0.4,0.4,1.5c0,0,1.8,2.2,2.6,2.6c0,0,1.1,0.9,1.4,0.5l2.8,2.8c0,0-1.1,1.6-4.9-0.8
+			c0,0-4.5-3-5.5-7.1C200.6,103.6,200.3,102,200.9,101z"/>
+		<path class="st11" d="M201.3,100.6l2.9,3l0.8-0.8c0,0,0.5-0.3-0.8-1.4l-1.4-1.5c0,0-0.4-0.3-0.7-0.1L201.3,100.6z"/>
+		<path class="st11" d="M208.4,108.2l2.9,3l0.8-0.8c0,0,0.5-0.3-0.8-1.4l-1.4-1.5c0,0-0.4-0.4-0.7-0.1L208.4,108.2z"/>
+	</g>
+</g>
+<g>
+	<polygon class="st3" points="241.4,163 213.6,163 222.7,185.4 250.5,185.4 	"/>
+	<g>
+		<g>
+			<path class="st12" d="M238.5,174.9l-4.3,1.4l-5.3-4.9l4.1,5.2l-4.6,1.6l-2.4-9.8L238.5,174.9z"/>
+			<path class="st12" d="M233.1,177.4v2.7l-1.5-2.2L233.1,177.4z"/>
+		</g>
+	</g>
+</g>
+<text id="name" transform="matrix(0.9524 0 0 1 287.1367 73.3486)" class="st0 st13 st14">JOHN DOE</text>
+<text id="desig" transform="matrix(0.9524 0 0 1 289.9033 103.6436)" class="st3 st13 st15">PROFESSION</text>
+<text id="cname" transform="matrix(0.9524 0 0 1 19.3408 39.7354)" class="st3 st13 st16">COMPANY NAME</text>
+<text id="email" transform="matrix(0.9524 0 0 1 103.6816 180.125)" class="st3 st13 st17">JOHN@DOE.COM</text>
+<text id="contact" transform="matrix(0.9524 0 0 1 111.2256 109.2266)" class="st0 st13 st17">9876543210</text>
+</svg>
